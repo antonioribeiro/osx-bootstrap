@@ -1,6 +1,6 @@
 [user]
-	email = quentin@area17.com
-	name = Quentin Renard
+	email = antonio@area17.com
+	name = Antonio Ribeiro
 [push]
     default = simple
 [filter "lfs"]

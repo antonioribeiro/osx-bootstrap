@@ -1,16 +1,17 @@
 export ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="amuse"
 
 DEFAULT_USER=`whoami`
 
-plugins=(git brew brew-cask history-substring-search common-aliases vagrant composer)
+plugins=(git brew history-substring-search common-aliases vagrant composer)
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH=~/.composer/vendor/bin:$PATH
+export PATH=~/usr/local/share/composer/vendor/bin:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
